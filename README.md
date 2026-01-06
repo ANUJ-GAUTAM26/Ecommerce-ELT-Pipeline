@@ -31,17 +31,18 @@ The final Tableau dashboard provides insights into:
 * **Daily Sales Trends** (Time-series analysis)
 * **Revenue by Product Category**
 
-![E-Commerce Dashboard](dashboard_screenshot.png)
-*(Note: If the image above does not load, ensure 'dashboard_screenshot.png' is in the repo)*
+![Dashboard](DashBoard.png)
+
+
 
 ## 📂 Project Structure
 ```text
 Ecommerce-ELT-Pipeline/
 │
-├── 1_data_generator.py      # Generates synthetic data & uploads to AWS S3
-├── 2_setup_database.py      # DDL scripts to create Staging and Fact tables
-├── 3_etl_pipeline.py        # Main ELT logic (Extract S3 -> Load DB -> Transform SQL)
-├── airflow_dag.py           # Airflow DAG for orchestration
-├── requirements.txt         # Python dependencies
-├── .env                     # Secrets (Not uploaded to GitHub)
-└── README.md                # Project Documentation
+├── 1_data_generator.py      
+├── 2_setup_database.py      
+├── 3_etl_pipeline.py        
+├── airflow_dag.py           
+├── requirements.txt         
+├── .env                     
+└── README.md                
