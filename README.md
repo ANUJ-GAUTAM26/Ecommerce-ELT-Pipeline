@@ -31,7 +31,7 @@ The final Tableau dashboard provides insights into:
 * **Daily Sales Trends** (Time-series analysis)
 * **Revenue by Product Category**
 
-![Dashboard](DashBoard.png)
+![Dashboard](Dashboard.png)
 
 
 
